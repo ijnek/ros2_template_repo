@@ -1,4 +1,4 @@
-FROM osrf/ros:rolling-desktop
+FROM osrf/ros:rolling-desktop-full
 
 # Update all packages
 RUN apt update && apt upgrade -y
