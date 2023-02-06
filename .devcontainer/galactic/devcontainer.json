@@ -1,0 +1,9 @@
+{
+  "dockerFile": "Dockerfile",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/ws/src/${localWorkspaceFolderBasename},type=bind",
+  "workspaceFolder": "/ws",
+  "runArgs": [
+    "--privileged",
+    "--network=host"
+  ]
+}
