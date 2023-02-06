@@ -1,4 +1,4 @@
-FROM osrf/ros:galactic-desktop-full
+FROM osrf/ros:galactic-desktop
 
 # Update all packages
 RUN apt update && apt upgrade -y

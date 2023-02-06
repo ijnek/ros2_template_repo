@@ -1,4 +1,4 @@
-FROM osrf/ros:foxy-desktop-full
+FROM osrf/ros:foxy-desktop
 
 # Update all packages
 RUN apt update && apt upgrade -y

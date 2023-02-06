@@ -1,4 +1,4 @@
-FROM osrf/ros:humble-desktop-full
+FROM osrf/ros:humble-desktop
 
 # Update all packages
 RUN apt update && apt upgrade -y
